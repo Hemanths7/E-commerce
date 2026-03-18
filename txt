@@ -1,0 +1,39 @@
+DJANGO-ECOMMERCE-MASTER/
+│
+├── bin/
+│
+├── core/                     ← Main Application (Business Logic)
+│   ├── migrations/           ← Database migration files
+│   ├── admin.py              ← Registers models in admin panel
+│   ├── apps.py               ← App configuration
+│   ├── forms.py              ← Form handling
+│   ├── models.py             ← Database models (tables)
+│   ├── urls.py               ← App-level URL routing
+│   ├── views.py              ← Business logic
+│   └── ...
+│
+├── demo/                     ← Project Configuration Folder
+│   ├── __init__.py
+│   ├── settings.py           ← Project settings
+│   ├── urls.py               ← Main URL routing
+│   ├── wsgi.py               ← Server gateway
+│   └── asgi.py               ← Async server config
+│
+├── media_root/               ← Uploaded Images (Product images)
+│
+├── static_in_env/            ← CSS, JS, Design files
+│
+├── templates/                ← HTML files (Frontend)
+│   ├── home.html
+│   ├── product.html
+│   ├── cart.html
+│   ├── checkout.html
+│   └── ...
+│
+├── venv/                     ← Virtual Environment (DO NOT SHARE)
+│
+├── db.sqlite3                ← Database file
+├── manage.py                 ← Command controller file
+├── requirements.txt          ← Installed packages list
+├── README.md                 ← Project documentation
+└── .gitignore                ← Git ignore file
